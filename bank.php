@@ -6,6 +6,8 @@
     var $age;
     var $cash = 0;
 
+    const CLASS_ORIGIN = "Person class.";
+
     function say_hi($receiver) {
       return 'Hello $receiver.';
     }
@@ -26,6 +28,8 @@
     var $balance = 0;
     var $bank;
     var $name;
+
+    const CLASS_ORIGIN = "Account class.";
 
     function deposit($amount) {
       $balance += $amount;

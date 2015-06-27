@@ -44,7 +44,7 @@
 
 $my_var = 'foobar';
 
-echo "I am using DOUBLE quotes: $my_var \n";
-echo 'I am using SINGLE quotes: $my_var'."\n";
-
+echo "I am using DOUBLE quotes. Use me for string interpolation and escape characters such as line breaks: $my_var \n\n";
+echo 'I am using SINGLE quotes. Use me for returning object names: $my_var'."\n";
+echo "Double colons are for returning a constant from a class: " . Account::CLASS_ORIGIN . "\n\n";
 ?>
